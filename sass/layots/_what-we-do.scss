@@ -1,0 +1,33 @@
+.section-padding {
+    padding-top: 0;
+}
+
+.activity {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    &__item {
+        display: flex;
+        width: calc((100% - 60px) / 3);
+        }
+    
+        &__wrap {
+            position: relative;
+        }
+    
+        &__wrap .text-above__activity {
+            display: flex;
+            position: absolute;
+            text-transform: uppercase;
+            justify-content: center;
+            align-items: center;
+            bottom: 0;
+            width: 100%;
+            height: 70px;
+            color: #fff;
+            background: rgba(47, 48, 58, 0.8);
+            font-weight: 700;
+        }
+}
+
