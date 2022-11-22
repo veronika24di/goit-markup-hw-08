@@ -1,11 +1,4 @@
-.hero {
-    text-align: center;
-    background: var(--accent-bacground-color);
-    padding-top: 200px;
-    padding-bottom: 200px;
-    
-
-    &__title {
+  .hero__title {
     max-width: 360px;
         font-weight: 900;
         font-size: 26px;
@@ -21,11 +14,11 @@
                     max-width: 696px;
                 }
         }
-}
+
 
 .overlay {
     text-align: center;
-    padding-top: 200px;
+    padding: 118px 0;
     max-width: 1600px;
     height: 400px;
     margin-left: auto;
