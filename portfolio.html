@@ -18,31 +18,25 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" href="./css/main.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
-  <!--Header-->
   <body>
     <!--HEADER-->
-    <header class="page-header">
+     <header class="page-header">
       <!-- Site navigation -->
       <div class="container header__nav">
         <!-- Header logo -->
         <a href="./index.html" class="logo"
-          >Web<span class="logo__color logo__color--dark">Studio</span></a
-        >
+            >Web<span class="logo__color logo__color--dark">Studio</span></a
+          >
         <div class="header-links js-menu-container">
           <nav class="site-nav">
             <ul class="site-nav__list">
               <li class="site-nav__item">
-                <a
-                  href="./index.html"
-                  class="site-nav__link site-nav__link--current"
-                  >Студія</a
-                >
+                <a href="./index.html" class="site-nav__link">Студія</a>
               </li>
               <li class="site-nav__item">
-                <a href="./portfolio.html" class="site-nav__link">Портфоліо</a>
+                <a href="./portfolio.html" class="site-nav__link site-nav__link--current">Портфоліо</a>
               </li>
               <li class="site-nav__item">
                 <a href="./del.html" class="site-nav__link">Контакти</a>
@@ -55,10 +49,7 @@
             <ul class="contact-info">
               <li class="contact-info__item">
                 <div class="contact-info__icon">
-                  <a
-                    href="mailto:info@devstudio.com"
-                    class="contact-info__link"
-                  >
+                  <a href="mailto:info@devstudio.com" class="contact-info__link">
                     <svg class="contact-info__icon-mail" width="16" height="12">
                       <use href="./images/contacts.svg#icon-mail"></use>
                     </svg>
@@ -78,45 +69,22 @@
               </li>
             </ul>
 
-            <ul class="contact__social">
-              <li class="contact__item">
-                <a class="contact__link" href="#">Instagram</a>
-              </li>
-              <li class="contact__item">
-                <a class="contact__link" href="#">Twitter</a>
-              </li>
-              <li class="contact__item">
-                <a class="contact__link" href="#">Facebook</a>
-              </li>
-              <li class="contact__item">
-                <a class="contact__link" href="#">LinkedIn</a>
-              </li>
+        <ul class="contact__social">
+              <li class="contact__item"><a class="contact__link" href="#">Instagram</a></li>
+              <li class="contact__item"><a class="contact__link" href="#">Twitter</a></li>
+              <li class="contact__item"><a class="contact__link" href="#">Facebook</a></li>
+              <li class="contact__item"><a class="contact__link" href="#">LinkedIn</a></li>
             </ul>
-          </div>
-        </div>
-
-        <button
-          type="button"
-          class="menu-toggle js-open-menu"
-          aria-expanded="false"
-        >
-          <svg
-            class="menu-toggle__icon"
-            width="24"
-            height="20"
-            aria-label="Мобільне меню"
-          >
-            <use
-              class="menu-toggle__open"
-              href="./images/icons.svg#icon-menu"
-            ></use>
-            <use
-              class="menu-toggle__close"
-              href="./images/icons.svg#icon-close"
-            ></use>
-          </svg>
-        </button>
       </div>
+      </div>
+
+      <button type="button" class="menu-toggle js-open-menu" aria-expanded="false">
+        <svg class="menu-toggle__icon" width="24" height="20" aria-label="Мобільне меню">
+          <use class="menu-toggle__open" href="./images/icons.svg#icon-menu"></use>
+          <use class="menu-toggle__close" href="./images/icons.svg#icon-close"></use>
+        </svg>
+        </button>
+    </div>
     </header>
     <!--Portfolio Filters-->
     <main>
@@ -175,8 +143,9 @@
                       "
                       media="(min-width: 320px)"
                     />
-                  </picture>
+                  
                   <img src="./images/img-7.jpg" alt="Ноутбук" />
+                  </picture>
                   <div class="portfolio-list__overlay">
                   <p class="description-text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -655,5 +624,6 @@
         </div>
       </div>
     </footer>
+        <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
