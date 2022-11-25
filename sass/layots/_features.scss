@@ -5,8 +5,44 @@
     flex-wrap: wrap;
 
     &__item {
-            width: 270px;
+width: 450px;
+            @media screen and (min-width: 1200px){
+                width: 270px;
+            }
+
+            @media screen and (min-width:768px) and (max-width: 1199px) {
+                width:354px;
+            }
         }
+
+                .footer-logo {
+                    display: block;
+                    font-family: "Raleway", sans-serif;
+                    font-weight: 700;
+                    font-size: 26px;
+                    line-height: 1.19;
+                    color: var(--modal-icon-color);
+        
+                    &__color--dark {
+                        color: var(--dark-logo-color);
+                    }
+        
+                    &__color--light {
+                        color: var(--light-logo-color);
+                    }
+        
+                    @media screen and (min-width: 768px) and (max-width: 1199.5px) {
+                        padding-bottom: 26px;
+                    }
+        
+                    @media screen and (min-width: 1200px) {
+                        font-size: 26px;
+                        line-height: 1.2;
+                        margin-right: 93px;
+                        padding-top: 24px;
+                        padding-bottom: 25px;
+                    }
+                }
     
         &__icon {
             display: flex;
@@ -24,6 +60,7 @@
             line-height: 1.14;
             text-transform: uppercase;
             color: var(--title-text-color);
+            text-align: center;
         }
     
         &__text {

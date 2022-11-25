@@ -13,8 +13,6 @@
     &__color--light {
         color: var(--light-logo-color);
     }
-         padding-top: 16px;
-         padding-bottom: 16px;
     
          @media screen and (min-width: 768px) and (max-width: 1199.5px) {
              margin-right: 88px;
@@ -23,11 +21,11 @@
          }
     
          @media screen and (min-width: 1200px) {
-             font-size: 26px;
-             line-height: 1.2;
-             margin-right: 93px;
-             padding-top: 24px;
-             padding-bottom: 25px;
+                font-size: 26px;
+                    line-height: 1.2;
+                    margin-right: 93px;
+                    padding-top: 24px;
+                    padding-bottom: 25px;
          }
 }
 
