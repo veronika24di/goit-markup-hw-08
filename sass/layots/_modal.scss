@@ -136,6 +136,7 @@ position: relative;
         justify-content: center;
         line-height: 24px;
         margin-bottom: 30px;
+        margin-top: 20px;
         align-items: center;
     }
 }
@@ -171,20 +172,15 @@ position: relative;
 }
 
 
-
-.modal-lable__checkbox {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    line-height: 24px;
-    margin-bottom: 30px;
-    align-items: center;
-}
-
 .agreement-text {
+
+    margin-left: 8.38px;
+
+    @media screen and (min-width: 370px) and (max-width: 1199px){
+        margin-left: 8.38px;
         font-size: 12px;
         line-height: 1.17;
-    margin-left: 8.38px;
+    }
 }
 
 .agreement-condition {

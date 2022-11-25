@@ -10,6 +10,7 @@
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    margin-bottom: 20px;
     color: var(--modal-icon-color);
 
     &__color--dark {
@@ -24,9 +25,6 @@
     @media screen and (min-width: 1200px) {
         font-size: 26px;
         line-height: 1.2;
-        margin-right: 93px;
-        padding-top: 24px;
-        padding-bottom: 25px;
     }
 }
 
@@ -34,7 +32,7 @@
     @media screen and (min-width: 768px) and (max-width: 1199.5px) {
             display: flex;
             align-items: baseline;
-            justify-content: space-between;
+            justify-content: space-around;
             margin-bottom: 60px;
         }
     
@@ -89,6 +87,7 @@ display: block;
 .footer-contacts{
     font-style: normal;
     line-height: 1.7;
+    margin: 0;
 }
 
 .footer-contacts__item:not(:last-child) {

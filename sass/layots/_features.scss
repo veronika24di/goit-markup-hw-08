@@ -60,7 +60,11 @@ width: 450px;
             line-height: 1.14;
             text-transform: uppercase;
             color: var(--title-text-color);
-            text-align: center;
+            
+
+            @media screen and (max-width: 767px) {
+text-align: center;
+            }
         }
     
         &__text {
